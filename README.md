@@ -16,7 +16,7 @@ Latex's way of introducing track changes into a PDF is to use a function inside 
 While we could, theoratically, insert all revisions using these functions, this is ridiculously effortful. Instead, we want LaTeX to compare two .tex files and create a new .tex file in which LaTeX, for us, inserts the functions wherever the two compared files differ (both where text was deleted and where text was added).
 
 # Steps
-1) Install perl (not sure whether its really needed)
+1) Install perl
 2) Install MikTeX
 3) Install `latexpand` and `latexdiff` package
 4) Download source .tex file (e.g., from overleaf) with and without revisions.
@@ -26,7 +26,7 @@ While we could, theoratically, insert all revisions using these functions, this 
 9) Enjoy the PDF file with track changes.
 
 ## Install Perl
-Following [this tutorial](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents), the LaTeX scripts we will use later require the installation of perl. Install it [from here](https://www.perl.org/get.html). It may or may not be needed eventually, though.
+Following [this tutorial](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents), the LaTeX scripts we will use later require the installation of perl. Install it [from here](https://www.perl.org/get.html). Make sure you use the strawberry installation when on windows.
 
 ## Install MikTeX
 Install MikTeX [from here](https://miktex.org/download).
